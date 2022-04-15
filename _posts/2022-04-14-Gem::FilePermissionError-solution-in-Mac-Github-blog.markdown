@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "Gem::FilePermissionError-solution-in-Mac"
-date: 2022-04-14 21:03:36 +0530
-categories: Javascript NodeJS
+title: "[ERROR] Gem::FilePermissionError"
+date: 2022-04-14 08:00:00 +0530
+categories: Blog, Error
 ---
+
+### Github blog 생성기
 
 ## **Mac에서 Gem::FilePermissionError**
 
@@ -46,30 +48,33 @@ brew install rbenv ruby-build
 
 **rbenv 가 잘 설치되었는지 확인해보고**
 
-`rbenv versions`
+```bash
+rbenv versions
+```
 
 **✔️ 2.rbenv로 관리되는 Ruby를 설치!**
 
 설치할 수 Ruby 버전은 다음 명령으로 확인
 
-`rbenv install -l`
+```bash
+rbenv install -l
+```
 
 ! [] (https://user-images.githubusercontent.com/89245389/163316340-009c5e42-aee3-4e8d-99ff-08159b12a1c6.png)
 
 <img src="https://user-images.githubusercontent.com/89245389/163316340-009c5e42-aee3-4e8d-99ff-08159b12a1c6.png" />
 
 ```bash
-rbenv install 2.6.4
+rbenv install 3.1.2
 ```
 
 아래와 같이 로그가 보이면서 설치가 완료됩니다.
 
 ```bash
-ruby-build: using openssl from homebrew
-Downloading ruby-2.6.4.tar.bz2...
--&gt; https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.4.tar.bz2
-Installing ruby-2.6.4...
-Installed ruby-2.6.4 to /Users/idong-uk/.rbenv/versions/2.6.4
+Downloading ruby-3.1.2.tar.gz...
+-> https://cache.ruby-lang.org/pub/ruby/3.1/ruby-3.1.2.tar.gz
+Installing ruby-3.1.2...
+ruby-build: using readline from homebrew
 ```
 
 다시 rbenv로 버전을 확인해봅니다.
