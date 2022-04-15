@@ -2,7 +2,7 @@
 layout: post
 title: "[ERROR] Gem::FilePermissionError"
 date: 2022-04-14 08:00:00 +0530
-categories: Blog, Error
+categories: Blog Error
 ---
 
 ### Github blog 생성기
@@ -117,6 +117,12 @@ vim ~/.zshrc
   export PATH=${HOME}/.rbenv/bin:${PATH} &amp;&amp; \
   eval "$(rbenv init -)"
 ```
+
+> vim editor를 사용할 때 **`i`**를 누르면 편집 기능이 활성화되고
+
+> `esc` + `:wq` + `enter` 저장 후 창 종료가 됩니다.
+
+<br />
 
 **✔️ 6. 코드를 추가하셨다면 `source`로 코드를 적용합니다.**
 
