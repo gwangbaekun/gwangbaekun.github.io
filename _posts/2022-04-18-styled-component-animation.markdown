@@ -5,6 +5,8 @@ date: 2022-04-18 08:00:00 +0530
 categories: Styled-component
 ---
 
+Styled component로 애니메이션 효과 적용하기
+
 ## Styled component로 애니메이션 효과 적용하기
 
 어렵지 않습니다.

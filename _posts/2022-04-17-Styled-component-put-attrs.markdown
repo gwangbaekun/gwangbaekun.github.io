@@ -5,6 +5,8 @@ date: 2022-04-17 08:00:00 +0530
 categories: Styled-component
 ---
 
+Styled component를 사용하여 같은 태그에 같은 속성 집어넣기
+
 ## Styled component를 사용하여 같은 태그에 같은 속성 집어넣기
 
 바로 코드를 보겠습니다.

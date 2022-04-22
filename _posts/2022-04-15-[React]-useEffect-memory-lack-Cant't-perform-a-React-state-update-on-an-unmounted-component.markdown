@@ -5,6 +5,8 @@ date: 2022-04-15 08:00:00 +0530
 categories: React, warning
 ---
 
+[React] useEffect 메모리 누수 Can't perform a React state update on an umounted component
+
 ### [React] useEffect 메모리 누수 Can't perform a React state update on an umounted component
 
 <br>

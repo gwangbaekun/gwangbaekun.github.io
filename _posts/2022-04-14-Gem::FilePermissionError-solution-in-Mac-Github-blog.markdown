@@ -5,6 +5,8 @@ date: 2022-04-14 08:00:00 +0530
 categories: Blog Error
 ---
 
+Github blog 생성기
+
 ### Github blog 생성기
 
 ## **Mac에서 Gem::FilePermissionError**

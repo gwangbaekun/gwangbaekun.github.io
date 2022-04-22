@@ -5,6 +5,8 @@ date: 2022-04-20 08:00:00 +0530
 categories: Styled-component
 ---
 
+Styled Component adapting & extending
+
 ## Styled Component adapting & extending
 
 > styled-component extends & adapting은 아주 쉬운 문법이고 편리하며 코드 양을 줄여줍니다.

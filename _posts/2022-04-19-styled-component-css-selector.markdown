@@ -5,6 +5,8 @@ date: 2022-04-18 08:00:00 +0530
 categories: Styled-component
 ---
 
+Styled component 자식 선택자 활용하기
+
 ## Styled component 자식 선택자 활용하기
 
 styled component의 큰 장점 중 하나인 자식 선택자입니다.
@@ -51,8 +53,14 @@ const Box = styled.div`
     }
 `
 
+// 이 방법은 Pseudo tag를 참조하기 때문에 Pseudo가 어떤 html tag를 가지고 있는지 상관이 없습니다.
+
+// 재활용이 훨씬 더 쉬워지는 장점이 있습니다.
+
 const Pseudo = styled.span`
     font-size: 30px;
 `
 
 ```
+
+> 다음 styled-component 포스트 : adapting & extending

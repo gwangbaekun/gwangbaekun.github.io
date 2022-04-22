@@ -5,6 +5,8 @@ date: 2022-04-20 08:00:00 +0530
 categories: Styled-component
 ---
 
+Styled Component Theme 적용하기
+
 ## Styled Component Theme 적용하기
 
 > 제가 개인적으로 생각하는 styled component 의 강점은 자식에게 쉽게 속성을 전해줄 수 있다는 점입니다.
