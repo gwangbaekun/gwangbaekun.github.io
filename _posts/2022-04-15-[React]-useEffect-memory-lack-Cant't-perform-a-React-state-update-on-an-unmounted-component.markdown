@@ -14,7 +14,9 @@ categories: React, warning
 <br>
 
 ```bash
-Can't perform a React state update on an unmounted component. This is a no-op, but it indicates a memory leak in your application. To fix, cancel all subscriptions and asynchronous tasks in a useEffect cleanup function.
+Warning: Can't perform a React state update on an unmounted component.
+This is a no-op, but it indicates a memory leak in your application.
+To fix, cancel all subscriptions and asynchronous tasks in a useEffect cleanup function.
 ```
 
 ### 원인 및 해결 방법
@@ -47,6 +49,8 @@ useEffect의 cleanup 함수를 통해 오류를 해결했습니다.
 <br />
 
 > [참고문헌](https://juliangaramendy.dev/blog/use-promise-subscription) https://juliangaramendy.dev/blog/use-promise-subscription
+
+<br />
 
 ### Wait! Is that it?
 
