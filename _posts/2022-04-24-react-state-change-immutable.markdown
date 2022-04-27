@@ -73,6 +73,6 @@ video.time === copyVideo.time; // true
 
 결론
 
-#### 리액트 컴포넌트의 불필요한 재렌더링을 막기 위해서 `shallow compare`를 도와주어 앱의 최적화를 도모할 수 있습니다.
+#### **리액트 컴포넌트의 불필요한 재렌더링을 막기 위해서 `shallow compare`를 도와주어 앱의 최적화를 도모할 수 있습니다.**
 
-#### 또한 `call by reference`와 `call by copy`로 react의 불변성을 유지할 수 있습니다.
+#### **또한 `call by reference`로 최적화된 불변성 유지와 `call by copy`로 복잡한 구조의 데이터의 불변성을 유지할 수 있습니다.**
