@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[javascript] e.stopPropagation, e.preventDefault"
-date: 2022-04-20 08:00:00 +0530
+date: 2022-04-27 08:00:00 +0530
 categories: Javascript
 ---
 

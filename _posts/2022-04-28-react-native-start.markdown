@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[ReactNative] 리액트 네이티브 프로젝트 생성기"
-date: 2022-04-20 08:00:00 +0530
+date: 2022-04-28 08:00:00 +0530
 categories: ReactNative
 ---
 
