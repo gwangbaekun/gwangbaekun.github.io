@@ -184,3 +184,5 @@ brew install --cask visual-studio-code
 <hr>
 
 참고 및 번역 : [Richard So > My Ultimate M1 Mac Developer Setup](https://codeburst.io/my-ultimate-m1-mac-developer-setup-cfdb2daeed2d)
+
+comments_id: 35
