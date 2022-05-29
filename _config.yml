@@ -65,3 +65,6 @@ navigation:
     url: "/my-work"
   - title: Resume
     url: "/resume"
+
+google_analytics:
+  ga: "G-7VZCXY1D7G"
