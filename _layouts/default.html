@@ -175,7 +175,7 @@
   <script type="text/javascript" src="{{ "/assets/js/darkmode.js" | relative_url }}"></script>
   {% endif %}
 
-  {%- if site.plainwhite.analytics_id -%}
+  {% if site.plainwhite.analytics_id %}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.plainwhite.analytics_id }}"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -183,7 +183,7 @@
     gtag('js', new Date());
     gtag('config', '{{ site.plainwhite.analytics_id }}');
   </script>
-  {%- endif -%}
+  {% endif %}
 
   {% if site.plainwhite.search %}
   <script src="{{ "/assets/js/simple-jekyll-search.min.js" | relative_url }}"></script>
