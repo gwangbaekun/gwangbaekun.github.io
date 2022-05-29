@@ -3,7 +3,9 @@
 
 <head>
   {% include head.html %}
+  {% if site.google_analytics %}
   {% include analytics.html %}
+  {% endif %}
 </head>
 
 {%- if site.plainwhite.condensed_mobile contains page.layout -%}
