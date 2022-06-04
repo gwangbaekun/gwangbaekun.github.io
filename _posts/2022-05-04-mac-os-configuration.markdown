@@ -3,6 +3,7 @@ layout: post
 title: "[Mac] Mac developer configuration"
 date: 2022-05-04 08:00:00 +0530
 categories: Mac + M1
+comments_id: 1
 ---
 
 Mac, M1 개발자 환경 설정부터 react 구동까지 다루었습니다.
@@ -185,4 +186,3 @@ brew install --cask visual-studio-code
 
 참고 및 번역 : [Richard So > My Ultimate M1 Mac Developer Setup](https://codeburst.io/my-ultimate-m1-mac-developer-setup-cfdb2daeed2d)
 
-comments_id: 35
